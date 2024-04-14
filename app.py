@@ -65,4 +65,5 @@ def predict_beat():
     return jsonify(beat_results)
 
 if __name__ == '__main__':
-    app.run(debug=True, port = 10000)
+    # debug=True, port = 10000
+    app.run()
